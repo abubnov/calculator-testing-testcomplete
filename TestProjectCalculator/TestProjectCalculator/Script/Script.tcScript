@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="WindowsCalc" key="{7ADB5D3A-61CB-414B-88D4-74C5B9FFD740}" path="WindowsCalc.js" />
+	</children>
+</Root>

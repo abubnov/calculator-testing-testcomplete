@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE Nodes [
+
+<!ENTITY % NameValue "CDATA">
+<!ENTITY % PropType "(I|S|D|L|H|B)">
+<!ENTITY % VersionValue "CDATA">
+
+<!ELEMENT Prp (#PCDATA)>
+<!ELEMENT Node (Node|Prp)*>
+<!ELEMENT Nodes (Node)+>
+
+<!ATTLIST Nodes version CDATA "1">
+
+<!ATTLIST Node name CDATA #REQUIRED>
+
+<!ATTLIST Prp name CDATA #REQUIRED>
+<!ATTLIST Prp type CDATA #REQUIRED>
+<!ATTLIST Prp value CDATA #REQUIRED>
+]>
+<Nodes version="1">
+	<Node name="root">
+		<Node name="data">
+			<Node name="{24b6fa0b-0143-461a-9758-aeb9e9a9428b}">
+				<Prp name="default project" type="S" value="{BE8D5C5A-DB2A-41ED-B757-2A4DE92A1712}"/>
+			</Node>
+			<Node name="{be8d5c5a-db2a-41ed-b757-2a4de92a1712}">
+				<Prp name="relpath" type="S" value="TestProjectCalculator\ProjectWindowsCalculator.mds.tcLS"/>
+			</Node>
+			<Node name="{d8534ea8-5a07-4e3e-96b1-0629ff567dac}">
+				<Prp name="relpath" type="S" value="TestProjectwebCalculator\ProjectWindowsCalculator.mds.tcLS"/>
+			</Node>
+			<Node name="envmngrlogs">
+				<Prp name="key" type="S" value="{D55624A3-4158-4D09-910F-6FA65652113A}"/>
+			</Node>
+			<Node name="logs">
+				<Prp name="key" type="S" value="{76654390-8FD5-4AC7-B7ED-1C005E3FB6CD}"/>
+				<Prp name="relpath" type="S" value="Log"/>
+			</Node>
+			<Node name="variables"/>
+		</Node>
+		<Prp name="signature" type="S" value="{71078212-FAEB-4856-A901-B237C89E6B5C}"/>
+	</Node>
+</Nodes>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{24B6FA0B-0143-461A-9758-AEB9E9A9428B}" version="14.0" key="{3E45DA50-85E9-4B18-A6B2-6B22FC2DA239}">
+	<children>
+		<child name="ProjectWindowsCalculator" key="{BE8D5C5A-DB2A-41ED-B757-2A4DE92A1712}" path="TestProjectCalculator\ProjectWindowsCalculator.mds" />
+	</children>
+	<testItems key="{DE50C967-7193-407B-A0DD-905BCC901646}">
+		<children>
+			<testItem key="{BE8D5C5A-DB2A-41ED-B757-2A4DE92A1712}" enabled="True" timeout="0" stopOnError="True" description="" />
+		</children>
+	</testItems>
+	<variables key="{EA7BBD85-3E8C-4693-BC1C-D3F8FC6759ED}">
+		<data Version="3" />
+	</variables>
+	<analysis key="{FDFE078A-FB8F-4250-A28B-BB115CB01367}" />
+	<scc key="{00000000-0000-0000-0000-000000000000}" name="">
+		<data />
+	</scc>
+	<extender key="{1A3FC97E-9A66-4716-B166-35D10B4146E0}">
+		<CrossBrowserTesting Enable="True" />
+	</extender>
+</Root>
